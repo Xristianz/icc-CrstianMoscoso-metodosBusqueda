@@ -6,6 +6,9 @@ public class MetodosDeBusqueda {
     private Persona[] people;
     private ShowConsole ShowConsole;
     
+
+
+    
     public MetodosDeBusqueda() {
     }
 
@@ -43,8 +46,8 @@ public class MetodosDeBusqueda {
         else{
             ShowConsole.showMessage("Persona con codigo"+codeToFine+"No encontrado");
         }
-
+    }
+    public void showPersonbyName(){
         
     }
-    
 }
